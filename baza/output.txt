@@ -1,0 +1,935 @@
+X01
+Która realizacja klienta dla architektury klient-serwer mo¿e generowaæ mniej komunikacji?
+Cienki klient
+Gruby klientX100
+Przezroczystoœæ migracji to:
+zmiana fizycznej lokalizacji zasobu nie powoduje zmian w sposobie ich identyfikacji i dostêpu
+identyfikacja zasobów jest niezale¿na od ich fizycznej lokalizacji
+ zmiana lokalizacji zasobu dokonywana jest w sposób niewidoczny dla aplikacji w czasie jego u¿ytkowaniaX010
+PrzeŸroczystoœæ po³o¿enia to:
+zmiana lokalizacji zasobu dokonywana jest w sposób niewidoczny dla aplikacji w czasie jego u¿ytkowania
+identyfikacja zasobów jest niezale¿na od ich fizycznej lokalizacji
+zmiana fizycznej lokalizacji zasobu nie powoduje zmian w sposobie ich identyfikacji i dostêpuX001
+Przezroczystoœæ relokacji to:
+Zmiana fizycznej lokalizacji zasobu nie powoduje zmian w sposobie ich identyfikacji i dostêpu,
+Identyfikacja zasobów jest niezale¿na od ich fizycznej lokalizacji
+Zmiana lokalizacji zasobu dokonywana jest w sposób niewidoczny dla aplikacji w czasie jego u¿ytkowaniaX0110
+Dla których uporz¹dkowañ rozsy³ania spe³niony jest poni¿szy warunek: „z danego procesu wiadomoœci s¹ dostarczane do ka¿dego procesu w systemie w kolejnoœci ich wysy³ania”?
+Ca³kowite
+FIFO
+Przyczynowe
+Nieuporz¹dkowaneX0011
+Dla których schematów komunikacji miêdzyprocesowej potwierdzenie odbioru komunikatu mo¿e przyjœd przed rozpoczêciem przetwarzania komunikatu?
+Komunikacja nietrwa³a synchroniczna typu odpowiedŸ
+Komunikacja nietrwa³a asynchroniczna
+Komunikacja trwa³a synchroniczna
+Komunikacja nietrwa³a synchroniczna typu dostarczenieX110
+Komunikacja RPC w semantyce obs³ugi awarii serwera CO NAJWY¯EJ RAZ
+Jest retransmisja zamówienia us³ug
+Jest filtracja powtórzeñ
+Jest powtórne wykonanie zamówieniaX0010
+Zadaniem ³¹cznika w mechanizmie RPC jest:
+Realizacja mechanizmu drzwi w RPC
+Realizacja przetaczania parametrów
+Dostarczenie adresu wywo³ania procedury
+Utrzymanie tablicy portów us³ug na serwerzeX0011
+Dla algorytmu sterowania optymistycznego transakcjami wspó³bie¿nymi przy legalizacji transakcji Tj prawdziwe jest, ¿e
+Przy legalizacji wstecznej zbiór czytania Tj i zbiór pisania transakcji z B musz¹ byæ roz³¹czne
+Tj nie wolno zapisywad obiektów czytanych przez transakcje zbioru A
+Przy legalizacji wstecznej zbiór czytania Tj i zbiór pisania transakcji z A musz¹ byæ roz³¹czne
+Tj nie wolno zapisywad obiektów czytanych przez transakcje zbioru BX0101
+W protokole dwufazowego zatwierdzania transakcji rozproszonych 2PC serwery:
+Wszystkie serwery oczekuj¹ w stanie GOTOWOŒCI dopóki nie otrzymuj¹ globalnego wyniku g³osowania
+Mog¹ przejœæ od razu do stanu ZANIECHANIE bez oczekiwania na wynik g³osowania
+Mog¹ przejœæ do stanu ZANIECHANIE a nastêpnie do stanu GOTOWOŒc
+Realizuj¹ zatwierdzenie lokalne dopiero po uzyskaniu globalnego wyniku g³osowaniaX01
+Technika zdalnych obiektów rozproszonych to mechanizm architektury NOS (sieciowy system operacyjny) czy Middleware (warstwa poœrednicz¹ca oprogramowania)
+NOS
+MiddlewareX0110
+W algorytmie pesymistycznego porz¹dkowania operacji transakcji wed³ug znaczników czasu:
+Transakcja póŸniejsza nie musi czekaæ na zatwierdzenie zapisów transakcji wczeœniejszych
+Transakcja póŸniejsza mo¿e pisaæ, jeœli transakcja wczeœniejsza zapisywa³a ale tylko na kopii roboczej
+Transakcja nie mo¿e pisaæ, jeœli transakcja póŸniejsza wykona³a czytanie
+Transakcja póŸniejsza musi byæ zaniechana, jeœli transakcja wczeœniejsza zapisywa³a na swojej kopii roboczejX100
+Przezroczystoœc:
+Ukrywanie ró¿nic w reprezentacji danych, zachowanie spójnoœci w systemie, zdolnoœci ukrycia chwilowych nieprawid³owoœci funkcjonowania
+Standaryzowanie us³ug, zapewnienie przenoœnoœci, modu³owoœd architektury
+Replikacja komponentów, wymaganie decentralizacji algorytmów, potrzeba komunikacji asynchronicznej
+X010
+Otwartoœæ:
+Ukrywanie ró¿nic w reprezentacji danych, zachowanie spójnoœci w systemie, zdolnoœci ukrycia chwilowych nieprawid³owoœci funkcjonowania
+Standaryzowanie us³ug, zapewnienie przenoœnoœci, modu³owoœd architektury
+Rreplikacja komponentów, wymaganie decentralizacji algorytmów, potrzeba komunikacji asynchronicznej
+X001
+Skalowalnoœc:
+Ukrywanie ró¿nic w reprezentacji danych, zachowanie spójnoœci w systemie, zdolnoœci ukrycia chwilowych nieprawid³owoœci funkcjonowania
+Standaryzowanie us³ug, zapewnienie przenoœnoœci, modu³owoœd architektury
+Replikacja komponentów, wymaganie decentralizacji algorytmów, potrzeba komunikacji asynchronicznej
+X10
+Prawo Gustafsona mówi, ¿e dla sta³ej liczby procesorów
+Przyspieszenie roœnie, gdy zwiêkszamy rozmiar problemu
+Przyspieszenie maleje, gdy zwiêkszamy rozmiar problemuX10
+Prawo Amdahla mówi, ¿e przy zwiêkszeniu skali przetwarzania czêœci sekwencyjna
+Staje siê coraz wiêksz¹ czêœci¹ czasu przetwarzania
+Staje siê coraz mniejsz¹ czêœci¹ czasu przetwarzaniaX1000
+W mechanizmie RPC przetaczanie parametrÃ³w realizowane jest:
+W pieÅ„ku klienta
+W warstwie zdalnych wywoÅ‚aÅ„
+W procedurze dowiÄ…zania
+W Å‚Ä…czniku
+X0001
+NajdroÅ¼sza struktura systemÃ³w (Topologia) wg. kosztÃ³w to:
+PierscieÅ„
+Siatka
+Torus
+HiperkostkaX1000
+Najtansza struktura systemÃ³w (Topologia) wg. kosztÃ³w to:
+PierscieÅ„
+Siatka
+Torus
+HiperkostkaX01101
+Wybierz poprawne stwierdzenia charakteryzuj¹ce przekazywanie parametrów w zdalnych wywo³aniach procedur z u¿yciem regu³ filtru XDR
+parametry nie mog¹ byæ przekazywane przez kopiowanie i odtwarzanie
+Nadawca i odbiorca musz¹ znaæ typ danych poszczególnych parametrów
+Parametry mog¹ byæ przekazywane przez referencje
+Nadawca i odbiorca nie musz¹ znaæ typu danych poszczególnych parametrów
+Konwersja parametrów jest zawsze wykonywanaX0010
+W ktÃ³rych sieciach P2P stosuje siÄ™ tablicÄ™ rutingu w wezÅ‚ach sieci?
+czyste (pure)
+hybrydowe
+strukturyzowane
+niestrukturyzowaneX1100
+Opis zasobÃ³w strefy DNS dotyczy domeny edu.pl i zawiera wpis $ORIGIN edu.pl. W strefie jest host o nazwie serwer-2. Zaznacz poprawne wpisy w pliku opisujÄ…cym strefÄ™
+serwer-2 IN NS serwer-2.edu.pl
+serwer-2.edu.pl IN A 173.194.35.159
+serwer-2.edu.pl IN PTR 173.194.35.159
+serwer-2.12345.A 173.194.35.159X01000
+Kiedy s¹ wykorzystywane epoki (przetwarzania?):
+ekterminacja
+reinkarnacja
+agodna reinkarnacja
+przeterminowanie
+wygaœniêcieX0111
+W których metodach niezawodnego rozsy³ania prawdziwe jest poni¿sze stwierdzenie: "wiadomoœci wys³ane przez proces x s¹ dostarczane (odbierane ?) do procesu/ów w tej samej kolejnoœci":
+nieuporz¹dkowane
+FIFO
+przyczynowe
+ca³kowiteX0100
+W jakich architekturach realizowane s¹ klastry obliczeniowe?
+SISD
+MIMD
+SIMD
+MISD
+X1000
+Warunki powstania zakleszczenia:
+wzajemne wykluczanie
+zwielokrotnione zasoby
+wywÅ‚aszczenia
+acykliczne oczekiwanie
+X0100
+28.   Gdy transakcja X zalo¿y blokadê do czytania, gdy inna transakcja chce czytaæ to:
+Czeka na zwolnienie blokady
+Zak³ada blokadê do czytania w trybie wspólnym
+Zak³ada blokadê do czytania
+Zak³ada blokadê do pisania
+X1000
+Gdy transakcja X zaloÅ¼y blokadÄ™ do czytania, gdy inna transakcja chce pisaÄ‡ to:
+Czeka na zwolnienie blokady
+ZakÅ‚ada blokadÄ™ do czytania w trybie wspÃ³lnym
+ZakÅ‚ada blokadÄ™ do czytania
+ZakÅ‚ada blokadÄ™ do pisaniaX1000
+Gdy transakcja X zalo¿y blokadê do pisania, gdy inna transakcja chce czytaæ to:
+Czeka na zwolnienie blokady
+Zak³ada blokadê do czytania w trybie wspólnym
+Zak³ada blokadê do czytania
+Zak³ada blokadê do pisania
+X1000
+Gdy transakcja X zaloÅ¼y blokadÄ™ do pisania, gdy inna transakcja chce pisaÄ‡ to:
+Czeka na zwolnienie blokady
+ZakÅ‚ada blokadÄ™ do czytania w trybie wspÃ³lnym
+ZakÅ‚ada blokadÄ™ do czytania
+ZakÅ‚ada blokadÄ™ do pisania
+X1100
+W protokole dwufazowego zatwierdzania transakcji rozproszonych 2PC w I fazie gÅ‚osowania serwer
+Gdy gÅ‚osuje PRZECIW wykonuje zaniechanie lokalnej transakcji
+Gdy gÅ‚osuje ZA oczekuje na wynik gÅ‚osowania i przechodzi w stan GOTOWOSC
+Gdy gÅ‚osuje ZA zatwierdza lokalnie transakcje i oczekuje na wynik glosowania
+Gdy gÅ‚osuje PRZECIW oczekuje na wynik gÅ‚osowania i przechodzi w stan GOTOWOSC
+X100
+WÄ™zeÅ‚ przestrzeni nazw DNS reprezentuje
+domenÄ™ DNS
+serwer nazw DNS
+strefÄ™ DNSX1100
+Jakie funkcje wymagaja uÅ¼ycia wait przed manipulacjÄ… buforem?
+send
+ssend
+isend
+irecvX1001
+Dla ktÃ³rych przypadkÃ³w komunikacji miedzyprocesowej dochodziÄ‡ bÄ™dzie do wstrzymywania dziaÅ‚ania procesu nadawczego?
+Komunikacja nietrwaÅ‚a synchroniczna typu dostarczenie
+Komunikacja nietrwaÅ‚a asynchroniczna
+Komunikacja trwaÅ‚a asynchroniczna
+Komunikacja trwaÅ‚a synchronicznaX1100
+KtÃ³re specyfikatory XML-RPC dla liczb zmiennoprzecinkowych:
+value
+double
+float
+real
+X100
+Wybierz odpowiednie stwierdzenie dla systemu kolejkowego Point-to-Point
+Wysy³anie na ¿¹danie
+Rozsy³anie komunikatów do wielu
+Nie ma takiego modeluX010
+Wybierz odpowiednie stwierdzenie dla systemu kolejkowego Publish/Subscribe
+Wysy³anie na ¿¹danie
+Rozsy³anie komunikatów do wielu
+Nie ma takiego modeluX001
+Wybierz odpowiednie stwierdzenie dla systemu kolejkowego Multichannel
+Wysy³anie na ¿¹danie
+Rozsy³anie komunikatów do wielu
+Nie ma takiego modeluX0001
+W ktÃ³rej sekcji dokumentu WSDL znajduje siÄ™ definicja nazwy operacji, ktÃ³rÄ… moÅ¼na wywoÅ‚aÄ‡?
+types
+binding
+endpoint
+interfaceX0010
+Nazwa niekwalifikowana DNS:
+W stosowanym zapisie rekordÃ³w koÅ„czy siÄ™ kropkÄ…
+Nie moÅ¼e byÄ‡ uzywana w opisie zasobÃ³w w bazie DNS
+MoÅ¼e siÄ™ powtarzaÄ‡ w przestrzeni nazw DNS
+Jest unikalna w przestrzeni nazw DNSX0001
+W ktÃ³rym z poniÅ¼szych elementÃ³w znajdujÄ… siÄ™ informacje "yellow pages"?
+SOAP
+XML Schema
+WSDL
+UDDIX0010
+Standardowo, przetaczanie parametrÃ³w (marshaling) jest realizowane w nastÄ™pujÄ…cy sposÃ³b:
+Po stronie serwera przy odbieraniu i wysyÅ‚aniu komunikatu
+Po stronie klienta przy wysyÅ‚aniu komunikatu i po stronie serwera przy wysyÅ‚aniu komunikatu
+Po stronie klienta przy wysyÅ‚aniu i przy odbieraniu komuniukatu, i po stronie serwera przy wysyÅ‚aniu i przy odbieraniu komunikatu
+Po stronie klienta przy wysyÅ‚aniu i odbieraniu komunikatuX0010
+OdpowiedÅº autorytatywna danego serwera DNS
+MoÅ¼e dotyczyÄ‡ zasobu i ze strefy danego serwera, i z innych stref
+Dotyczy zasobu, ktÃ³ry zostaÅ‚ uzyskany nie z bufora, ale na skutek odpytywania
+Dotyczy zasobu ze strefy tego serwera
+Dotyczy zasobu, dla ktÃ³rego przy zapytaniu nie trzeba odpytywaÄ‡ innych serwerÃ³wX10010
+Wybierz poprawne stwierdzenia dla struktury Omega(Butterfly)
+UmoÅ¼liwia wszystkim procesorom jednoczesne poÅ‚Ä…czenie z rÃ³Å¼nymi obszarami pamiÄ™ci
+Koszt roÅ›nie wolniej niÅ¼? liniowo w stosunku do liczby procesorÃ³w
+UmoÅ¼liwia p procesorom jednoczesne poÅ‚Ä…czenie z p/2? Obszarem pamiÄ™ci
+Koszt roÅ›nie szybciej niÅ¼ liniowo w stosunku od liczby procesorÃ³w
+UmoÅ¼liwia wszystkim procesorom jednoczesne poÅ‚Ä…czenie z tym samym obszarem pamiÄ™ci.
+X011000
+Jak w JSON-RPC podaje siÄ™ w Å¼Ä…daniach paramtery?
+W sekcji input
+W tablicy wartoÅ›ci
+W tablicy obiektÃ³w
+W strukturze
+Po sÅ‚owach kluczowych param
+Po sÅ‚owie kluczowym inputsX0011
+Wybierz prawidÅ‚owe stwierdzenia:
+Transakcje zagnieÅ¼dÅ¼one muszÄ… wykonywaÄ‡ siÄ™ na kilku serwerach 
+Wycofanie jednej z podtransakcji powoduje wycofanie wszystkich pozostaÅ‚ych podtransakcji transakcji zagnieÅ¼dÅ¼onych 
+Wycofanie transakcji nadrzÄ™dnej wymusza wycofanie rÃ³wnieÅ¼ jej zatwierdzonych podtransakcji
+Wycofanie podtransakcji transakcji zagnieÅ¼dÅ¼onej nie wymusza wycofania transakcji nadrzÄ™dnejX0011
+Wzorzec redundantnej implementacji:
+Zawsze wymaga aktywnoÅ›ci wielu replikowanych usÅ‚ug
+Z zaÅ‚oÅ¼enia zawsze bÄ™dzie zapewniaÄ‡ obsÅ‚ugÄ™ wszystkich dziaÅ‚ajÄ…cych klientÃ³w usÅ‚ugi
+W niektÃ³rych wariantach zakÅ‚ada aktywnoÅ›Ä‡ zwykle tylko jednej instancji usÅ‚ugi
+MoÅ¼e pozwalaÄ‡ na brak obsÅ‚ugi czÄ™Å›ci dziaÅ‚ajÄ…cych klientÃ³wX0111
+KtÃ³re z rodzajÃ³w transportu sÄ… dozwolone dla aplikacji Web Services?
+Å»aden z wymienionych
+SMTP
+HTTP
+TCPX0110
+W sieci P2P:
+Peery sÄ…siadujÄ…ce sÄ… wtedy gdy sÄ… bezpoÅ›rednio w tej samej sieci
+Peery przylegÅ‚e sÄ… wtedy gdy sÄ… bezpoÅ›rednio w tej samej sieci
+Peery sÄ…siadujÄ…ce sÄ… wtedy gdy rÃ³Å¼nica adresÃ³w wynosi 1
+Peery przylegÅ‚e sÄ… wtedy gdy rÃ³Å¼nica adresÃ³w wynosi 1X01
+Zazwyczaj moÅ¼e wstÄ™pnie przetwarzaÄ‡ dane dla operacji
+cienki klient
+gruby klientX10
+Zazwyczaj bÄ™dzie czÄ™Å›ciej komunikowaÅ‚ siÄ™ z serwerem
+cienki klient
+gruby klientX10
+W czasie zmian w warstwie logiki czÄ™sto nie musi byÄ‡ modyfikowalny
+cienki klient
+gruby klientX01
+MoÅ¼e przechowywaÄ‡ czÄ™Å›Ä‡ przetwarzanych danych
+cienki klient
+gruby klientX010
+Komunikacja asynchroniczna
+otwartoÅ›Ä‡
+skalowalnoÅ›Ä‡
+przejrzystoÅ›Ä‡ poÅ‚oÅ¼eniaX100
+NeutralnoÅ›Ä‡ interfejsÃ³w
+otwartoÅ›Ä‡
+skalowalnoÅ›Ä‡
+przejrzystoÅ›Ä‡ poÅ‚oÅ¼eniaX001
+System nazw symbolicznych
+otwartoÅ›Ä‡
+skalowalnoÅ›Ä‡
+przejrzystoÅ›Ä‡ poÅ‚oÅ¼eniaX010
+decentralizacja algorytmÃ³w
+otwartoÅ›Ä‡
+skalowalnoÅ›Ä‡
+przejrzystoÅ›Ä‡ poÅ‚oÅ¼eniaX0100
+Topologie od najdroÅ¼szej:
+torus -> pierÅ›cieÅ„ -> siatka (Mesh) 2D -> hiperkostka
+hiperkostka -> torus -> siatka (Mesh) 2D -> pierÅ›cieÅ„
+hiperkostka -> siatka (Mesh) 2D -> torus -> pierÅ›cieÅ„
+hiperkostka -> pierÅ›cieÅ„ -> torus -> siatka (Mesh) 2DX10
+UzupeÅ‚nij kod aplikacji Java RMI, w ktÃ³rym klient uzyskuje referencjÄ™ do zdalnego obiektu AAA umieszczonego na serwerze pod adresem ADR: try{ String nazwa = "zObiekt"; Registry xxx = LocateRegistry._________(ADR); zObiekt AAA = (zObiekt) xxx.__________(nazwa); }
+getRegistry, lookup
+lookup, getRegistryX10
+UzupeÅ‚nij kod aplikacji Java RMI, w ktÃ³rym definiujesiÄ™ interfejs zdalnego obiektu ZO dla zdalnej metody ZM: public interface ZO extends ________ { public Object ZM(TypParamteru p) throws _______; }
+Remote, RemoteException
+RemoteException, RemoteX10
+UzupeÅ‚nij: public class ZC extends ______ implements ZO { public ZC() throws __________ {super();} public Object ZM(TypParametru p) {return null;}}
+UnicastRemoteObject, RemoteException
+RemoteException, UnicastRemoteObjectX0100
+Podaj szerokoÅ›Ä‡ pasma bisekcji systemu o strukturze hiperkostki 4-go rzÄ™du:
+2
+8
+4
+16X0010
+Gdzie przechowywana jest nazwa metody w SOAP?
+Envelope
+Header
+Body
+ContractX10100
+Zaznacz poprawne sformuÅ‚owania dla modelu systemu kolejkowego point-to-point
+WiadomoÅ›Ä‡ jest dostarczana do jednego klienta (odbiorcy)
+Nie stosuje siÄ™ w tym modelu rÃ³wnowaÅ¼enia obciÄ…Å¼enia
+Do kolejki moÅ¼e byÄ‡ podÅ‚Ä…czonych wielu klientÃ³w
+Do kolejki moÅ¼e byÄ‡ podÅ‚Ä…czony jeden klient
+WiadomoÅ›Ä‡ jest dostarczana do wielu lub wszystkich klientÃ³w podÅ‚Ä…czonych do klejkiX10
+Sondowanie kanaÅ‚u i â€wyciÄ…ganieâ€ komunikatu (Get)
+pull
+pushX10
+ZgÅ‚aszanie jednostce poÅ›redniczÄ…cej wysÅ‚ania komunikatu (wypchniÄ™cia) jak tylko bÄ™dzie on dostÄ™pny (Notify)
+push
+pullX10
+SpÃ³jnoÅ›Ä‡ krawÄ™dziowa
+odpornoÅ›Ä‡ na uszkodzenia
+wydajnoÅ›Ä‡X01
+SzerokoÅ›Ä‡ pasma bisekcji
+odpornoÅ›Ä‡ na uszkodzenia
+wydajnoÅ›Ä‡X10
+UsÅ‚uga udostÄ™pnia
+punkt koÅ„cowy
+kontraktX10
+Konsument usÅ‚ugi Å‚Ä…czy siÄ™ z:
+punkt koÅ„cowy
+kontraktX01
+UsÅ‚uga implementuje
+punkt koÅ„cowy
+kontraktX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najwyÅ¼ej raz jest retransmisja zamÃ³wienia usÅ‚ugi
+nie 
+takX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najwyÅ¼ej raz jest filtracja powtÃ³rzeÅ„?
+nie 
+takX10
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najwyÅ¼ej raz jest powtÃ³rne wykonanie zamÃ³wienia?
+nie 
+takX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najwyÅ¼ej raz usÅ‚ugi
+muszÄ… byÄ‡ idempotentne
+nie muszÄ… byÄ‡ idempotentnesX10
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najmniej raz usÅ‚ugi
+muszÄ… byÄ‡ idempotentne
+nie muszÄ… byÄ‡ idempotentnesX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najmniej raz jest powtÃ³rne wykonanie zamÃ³wienia?
+nie 
+takX10
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najmniej raz jest filtracja powtÃ³rzeÅ„?
+nie 
+takX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najmniej raz jest retransmisja zamÃ³wienia usÅ‚ugi?
+nie 
+takX01010
+Zaznacz sformuÅ‚owania, ktÃ³re sÄ… prawdÄ… dla komunikacji JSON-RPC (1.0 lub 2.0) typu zawiadomienie:
+W zawiadomieniu podaje siÄ™ id wiadomoÅ›ci rÃ³wny 0
+W zawiadomieniu podaje siÄ™ id wiadomoÅ›ci rÃ³wny null
+Na zawiadomienie otrzymuje siÄ™ potwierdzenie z id wiadomoÅ›ci rÃ³wnym podanemu w zawiadomieniu
+Nie wysyÅ‚a siÄ™ potwierdzeÅ„ otrzymania zawiadomienia
+Na zawiadomienie otrzymuje siÄ™ potwierdzenie z id wiadomoÅ›ci wiÄ™kszym o 1 od podanego w zawiadomieniu.
+X001000
+Jakie jednostki mogÄ… byÄ‡ elementami tabliy (array) w JSON
+liczby, napisy, obiekty
+napisy
+liczby, obiekty, napisy, tablice
+liczby, napisy, tyablice
+liczby, napisy
+liczbyX010011
+Jakie podstawowe sekcje definiujÄ… wiadomoÅ›ci SOAP?
+CONTRACT
+HEADER
+STATUS
+POST
+BODY
+ENVELOPEX1000
+Gdzie jest definiowany interfejs usÅ‚ugi?
+dostawca usÅ‚ugi
+rejestr usÅ‚ugi
+usÅ‚uga 
+klientX10
+Podaj nazwÄ™ interfejsu, ktÃ³ry musi byÄ‡ rozszerzony/implementowany przez obiekty przekazywane w parametrach metody zdalnej jako obiekty lokalne
+Serializable
+RemoteX01
+Podaj nazwÄ™ interfejsu, ktÃ³ry musi byÄ‡ rozszerzony/implementowany przez obiekty przekazywane w parametrach metody zdalnej jako obiekty zdalne
+Serializable
+RemoteX0100
+Jaka jest zÅ‚oÅ¼onoÅ›Ä‡ kosztÃ³w organizacji strukturyzowanych sieci P2P (DHT) w zaleÅ¼noÅ›Ä‡ od jej rozmiaru?
+kwadratowa 
+logarytmiczna
+pierwiastkowa 
+liniowaX0100
+Jak w standardzie XML-RPC realizuje siÄ™ przekazywanie w odpowiedzi wielu parametrÃ³w?
+za pomocÄ… kilku wiadomoÅ›ci
+za pomocÄ… struktury
+poprzez unikalne identyfikatory
+podajÄ…c kolejne parametry (w polach <param>) w sekcji <params>X100
+Jednorodny system operacyjny w wÄ™zÅ‚ach wymagany dla systemÃ³w to:
+DOS (rozproszony system operacyjny)
+NOS (sieciowy system operacyjny)
+Middleware (warstwa poÅ›redniczÄ…ca)X101
+Cechy przezroczystoÅ›ci zapewniajÄ… systemy:
+DOS (rozproszony system operacyjny)
+NOS (sieciowy system operacyjny)
+Middleware (warstwa poÅ›redniczÄ…ca)X010
+Zawsze jawnie trzeba adresowaÄ‡ zasÃ³b w systemie:
+DOS (rozproszony system operacyjny)
+NOS (sieciowy system operacyjny)
+Middleware (warstwa poÅ›redniczÄ…ca)X100
+Zaimplementowany jest serwis webowy z usÅ‚ugami w stylu RESTfull dostÄ™pnymi przez protokÃ³Å‚ HTTP. Serwis dostÄ™pny jest pod adresem http://foo.org. Podstawowe zasoby, na ktÃ³rych wykonuje siÄ™ operacje to rowery (ich katalog) dostÄ™pne w folderze bikes. WyÅ›wietlenie spisu rowerÃ³w - adres: _______ metoda: ______________
+http://foo.org/bikes | metoda: GET
+http://foo.org/bikes | metoda: POST
+http://foo.org/bikes/13 | metoda: PUTX010
+Zaimplementowany jest serwis webowy z usÅ‚ugami w stylu RESTfull dostÄ™pnymi przez protokÃ³Å‚ HTTP. Serwis dostÄ™pny jest pod adresem http://foo.org. Podstawowe zasoby, na ktÃ³rych wykonuje siÄ™ operacje to rowery (ich katalog) dostÄ™pne w folderze bikes. Dodanie nowego roweru do spisu - adres: _______ metoda: ______________
+http://foo.org/bikes | metoda: GET
+http://foo.org/bikes | metoda: POST
+http://foo.org/bikes/13 | metoda: PUTX001
+Zaimplementowany jest serwis webowy z usÅ‚ugami w stylu RESTfull dostÄ™pnymi przez protokÃ³Å‚ HTTP. Serwis dostÄ™pny jest pod adresem http://foo.org. Podstawowe zasoby, na ktÃ³rych wykonuje siÄ™ operacje to rowery (ich katalog) dostÄ™pne w folderze bikes. Modyfikacja danych roweru o id=13 - adres: _______ metoda: ______________
+http://foo.org/bikes | metoda: GET
+http://foo.org/bikes | metoda: POST
+http://foo.org/bikes/13 | metoda: PUTX100
+Reinkarnacja to:
+globalne usuwanie sierot klienta
+coÅ› 
+coÅ› X100
+Co siÄ™ dzieje po wznowieniu klienta? 
+rozgÅ‚aszana zostaje nowa epoka
+coÅ›
+coÅ›X100
+Gdzie klient rozgÅ‚asza nowÄ… epokÄ™?
+wszÄ™dzie
+nigdzie
+na serwerzeX100
+Co siÄ™ dzieje z procesami klienta ze starej epoki?
+zostajÄ… usuniÄ™te
+przechodzÄ… do nowej epoki
+przechodzÄ… w stan hibernacjiX10
+OdpowiedÅº nieautorytatywna danego serwera DNS: 
+dotyczy danych spoza strefy (z bufora)
+dotyczy danych tego serwera (z bazy)X01
+OdpowiedÅº autorytatywna danego serwera DNS: 
+dotyczy danych spoza strefy (z bufora)
+dotyczy danych tego serwera (z bazy)X00010
+Co siê dzieje gdy serwer DNS nie mo¿e znaleŸæ informacji o adresie zasobu (nazwy), o który pyta siê klient z jego strefy? Wybierz jedn¹ odpowiedŸ:
+Klient otrzymuje informacjê, ¿e adres jest nieznany (address not found)
+Klient odpytuje serwer zapasowy DNS
+Klient wywo³uje rezorwel’a aby uzyskaæ adres zasobu
+Serwer DNS odpytuje o zasób serwer zapasowy
+Serwer DNS odpytuje serwer DNS wy¿szego poziomuX0110
+Wzorzec Fasada realizuje funkcjonalnoœæ (wybierz zawsze prawdziwe). Wybierz WSZYSTKIE poprawne odpowiedzi.
+W przypadku zmian w kontrakcie wymusza zmianê logiki biznesowej w us³udze
+Zapewnia warstwê poœrednicz¹c¹ realizuj¹c¹ czêœæ logiki biznesowej
+Zmniejszenie powi¹zania pomiêdzy logik¹ us³ugi a kontraktem
+Zwiêkszenie powi¹zania pomiêdzy logik¹ us³ugi a kontraktemX0001
+Który element okreœla strukturê komunikatu XML s³u¿¹cego do wywo³ania us³ugi w serwisie? Wybierz jedn¹ odpowiedŸ.
+plik XLST
+plik Web.config lub App.config
+pakiet SOAP
+plik XSDX0001
+[img]104.png[/img]
+Tylko specyfikator zmiennej caÅ‚kowitej "i4" lub liczby rzeczywistej "double"
+Tylko specyfikator zmiennej caÅ‚kowitej "i4" lub "int"
+Tylko specyfikator zmiennej caÅ‚kowitej "i4"
+Specyfikator zmiennej caÅ‚kowitej "i4" lub rzeczywistej "double", lub logicznej "boolean", lub ciÄ…gu znakÃ³w "string"X10000
+W serwisie jest zdefiniowana zmienna `integer xxx=0`; Oraz metoda `integer dodaj(integer yyy) {... return xxx;}` ktÃ³ra dodaje do zmiennej xxx wartoÅ›Ä‡ yyy. Dla jakiego typu dziaÅ‚ania serwisu (zachowania) naprzemienne wywoÅ‚anie metody dodaj(100) przez dwa rÃ³Å¼ne klienty (aplikacje na rÃ³Å¼nych komputerach) - kaÅ¼da wywoÅ‚uje metodÄ™ dwa razy, czyli Å‚Ä…cznie 4 - da ostateczny wynik rÃ³wny 200?
+Serwis jest typu PerSession
+Serwis jest typu Single
+Serwis jest typu Concurrent
+Serwis jest typu PerCall
+Serwis jest typu ParallelX01
+Która realizacja klienta dla architektury klient-serwer mo¿e generowaæ mniej komunikacji?
+Cienki klient
+Gruby klientX100
+Przezroczystoœæ migracji to:
+zmiana fizycznej lokalizacji zasobu nie powoduje zmian w sposobie ich identyfikacji i dostêpu
+identyfikacja zasobów jest niezale¿na od ich fizycznej lokalizacji
+ zmiana lokalizacji zasobu dokonywana jest w sposób niewidoczny dla aplikacji w czasie jego u¿ytkowaniaX010
+PrzeŸroczystoœæ po³o¿enia to:
+zmiana lokalizacji zasobu dokonywana jest w sposób niewidoczny dla aplikacji w czasie jego u¿ytkowania
+identyfikacja zasobów jest niezale¿na od ich fizycznej lokalizacji
+zmiana fizycznej lokalizacji zasobu nie powoduje zmian w sposobie ich identyfikacji i dostêpuX001
+Przezroczystoœæ relokacji to:
+Zmiana fizycznej lokalizacji zasobu nie powoduje zmian w sposobie ich identyfikacji i dostêpu,
+Identyfikacja zasobów jest niezale¿na od ich fizycznej lokalizacji
+Zmiana lokalizacji zasobu dokonywana jest w sposób niewidoczny dla aplikacji w czasie jego u¿ytkowaniaX0110
+Dla których uporz¹dkowañ rozsy³ania spe³niony jest poni¿szy warunek: „z danego procesu wiadomoœci s¹ dostarczane do ka¿dego procesu w systemie w kolejnoœci ich wysy³ania”?
+Ca³kowite
+FIFO
+Przyczynowe
+Nieuporz¹dkowaneX0011
+Dla których schematów komunikacji miêdzyprocesowej potwierdzenie odbioru komunikatu mo¿e przyjœd przed rozpoczêciem przetwarzania komunikatu?
+Komunikacja nietrwa³a synchroniczna typu odpowiedŸ
+Komunikacja nietrwa³a asynchroniczna
+Komunikacja trwa³a synchroniczna
+Komunikacja nietrwa³a synchroniczna typu dostarczenieX110
+Komunikacja RPC w semantyce obs³ugi awarii serwera CO NAJWY¯EJ RAZ
+Jest retransmisja zamówienia us³ug
+Jest filtracja powtórzeñ
+Jest powtórne wykonanie zamówieniaX0010
+Zadaniem ³¹cznika w mechanizmie RPC jest:
+Realizacja mechanizmu drzwi w RPC
+Realizacja przetaczania parametrów
+Dostarczenie adresu wywo³ania procedury
+Utrzymanie tablicy portów us³ug na serwerzeX0011
+Dla algorytmu sterowania optymistycznego transakcjami wspó³bie¿nymi przy legalizacji transakcji Tj prawdziwe jest, ¿e
+Przy legalizacji wstecznej zbiór czytania Tj i zbiór pisania transakcji z B musz¹ byæ roz³¹czne
+Tj nie wolno zapisywad obiektów czytanych przez transakcje zbioru A
+Przy legalizacji wstecznej zbiór czytania Tj i zbiór pisania transakcji z A musz¹ byæ roz³¹czne
+Tj nie wolno zapisywad obiektów czytanych przez transakcje zbioru BX0101
+W protokole dwufazowego zatwierdzania transakcji rozproszonych 2PC serwery:
+Wszystkie serwery oczekuj¹ w stanie GOTOWOŒCI dopóki nie otrzymuj¹ globalnego wyniku g³osowania
+Mog¹ przejœæ od razu do stanu ZANIECHANIE bez oczekiwania na wynik g³osowania
+Mog¹ przejœæ do stanu ZANIECHANIE a nastêpnie do stanu GOTOWOŒc
+Realizuj¹ zatwierdzenie lokalne dopiero po uzyskaniu globalnego wyniku g³osowaniaX01
+Technika zdalnych obiektów rozproszonych to mechanizm architektury NOS (sieciowy system operacyjny) czy Middleware (warstwa poœrednicz¹ca oprogramowania)
+NOS
+MiddlewareX0110
+W algorytmie pesymistycznego porz¹dkowania operacji transakcji wed³ug znaczników czasu:
+Transakcja póŸniejsza nie musi czekaæ na zatwierdzenie zapisów transakcji wczeœniejszych
+Transakcja póŸniejsza mo¿e pisaæ, jeœli transakcja wczeœniejsza zapisywa³a ale tylko na kopii roboczej
+Transakcja nie mo¿e pisaæ, jeœli transakcja póŸniejsza wykona³a czytanie
+Transakcja póŸniejsza musi byæ zaniechana, jeœli transakcja wczeœniejsza zapisywa³a na swojej kopii roboczejX100
+Przezroczystoœc:
+Ukrywanie ró¿nic w reprezentacji danych, zachowanie spójnoœci w systemie, zdolnoœci ukrycia chwilowych nieprawid³owoœci funkcjonowania
+Standaryzowanie us³ug, zapewnienie przenoœnoœci, modu³owoœd architektury
+Replikacja komponentów, wymaganie decentralizacji algorytmów, potrzeba komunikacji asynchronicznej
+X010
+Otwartoœæ:
+Ukrywanie ró¿nic w reprezentacji danych, zachowanie spójnoœci w systemie, zdolnoœci ukrycia chwilowych nieprawid³owoœci funkcjonowania
+Standaryzowanie us³ug, zapewnienie przenoœnoœci, modu³owoœd architektury
+Rreplikacja komponentów, wymaganie decentralizacji algorytmów, potrzeba komunikacji asynchronicznej
+X001
+Skalowalnoœc:
+Ukrywanie ró¿nic w reprezentacji danych, zachowanie spójnoœci w systemie, zdolnoœci ukrycia chwilowych nieprawid³owoœci funkcjonowania
+Standaryzowanie us³ug, zapewnienie przenoœnoœci, modu³owoœd architektury
+Replikacja komponentów, wymaganie decentralizacji algorytmów, potrzeba komunikacji asynchronicznej
+X10
+Prawo Gustafsona mówi, ¿e dla sta³ej liczby procesorów
+Przyspieszenie roœnie, gdy zwiêkszamy rozmiar problemu
+Przyspieszenie maleje, gdy zwiêkszamy rozmiar problemuX10
+Prawo Amdahla mówi, ¿e przy zwiêkszeniu skali przetwarzania czêœci sekwencyjna
+Staje siê coraz wiêksz¹ czêœci¹ czasu przetwarzania
+Staje siê coraz mniejsz¹ czêœci¹ czasu przetwarzaniaX1000
+W mechanizmie RPC przetaczanie parametrÃ³w realizowane jest:
+W pieÅ„ku klienta
+W warstwie zdalnych wywoÅ‚aÅ„
+W procedurze dowiÄ…zania
+W Å‚Ä…czniku
+X0001
+NajdroÅ¼sza struktura systemÃ³w (Topologia) wg. kosztÃ³w to:
+PierscieÅ„
+Siatka
+Torus
+HiperkostkaX1000
+Najtansza struktura systemÃ³w (Topologia) wg. kosztÃ³w to:
+PierscieÅ„
+Siatka
+Torus
+HiperkostkaX01101
+Wybierz poprawne stwierdzenia charakteryzuj¹ce przekazywanie parametrów w zdalnych wywo³aniach procedur z u¿yciem regu³ filtru XDR
+parametry nie mog¹ byæ przekazywane przez kopiowanie i odtwarzanie
+Nadawca i odbiorca musz¹ znaæ typ danych poszczególnych parametrów
+Parametry mog¹ byæ przekazywane przez referencje
+Nadawca i odbiorca nie musz¹ znaæ typu danych poszczególnych parametrów
+Konwersja parametrów jest zawsze wykonywanaX0010
+W ktÃ³rych sieciach P2P stosuje siÄ™ tablicÄ™ rutingu w wezÅ‚ach sieci?
+czyste (pure)
+hybrydowe
+strukturyzowane
+niestrukturyzowaneX1100
+Opis zasobÃ³w strefy DNS dotyczy domeny edu.pl i zawiera wpis $ORIGIN edu.pl. W strefie jest host o nazwie serwer-2. Zaznacz poprawne wpisy w pliku opisujÄ…cym strefÄ™
+serwer-2 IN NS serwer-2.edu.pl
+serwer-2.edu.pl IN A 173.194.35.159
+serwer-2.edu.pl IN PTR 173.194.35.159
+serwer-2.12345.A 173.194.35.159X01000
+Kiedy s¹ wykorzystywane epoki (przetwarzania?):
+ekterminacja
+reinkarnacja
+agodna reinkarnacja
+przeterminowanie
+wygaœniêcieX0111
+W których metodach niezawodnego rozsy³ania prawdziwe jest poni¿sze stwierdzenie: "wiadomoœci wys³ane przez proces x s¹ dostarczane (odbierane ?) do procesu/ów w tej samej kolejnoœci":
+nieuporz¹dkowane
+FIFO
+przyczynowe
+ca³kowiteX0100
+W jakich architekturach realizowane s¹ klastry obliczeniowe?
+SISD
+MIMD
+SIMD
+MISD
+X1000
+Warunki powstania zakleszczenia:
+wzajemne wykluczanie
+zwielokrotnione zasoby
+wywÅ‚aszczenia
+acykliczne oczekiwanie
+X0100
+28.   Gdy transakcja X zalo¿y blokadê do czytania, gdy inna transakcja chce czytaæ to:
+Czeka na zwolnienie blokady
+Zak³ada blokadê do czytania w trybie wspólnym
+Zak³ada blokadê do czytania
+Zak³ada blokadê do pisania
+X1000
+Gdy transakcja X zaloÅ¼y blokadÄ™ do czytania, gdy inna transakcja chce pisaÄ‡ to:
+Czeka na zwolnienie blokady
+ZakÅ‚ada blokadÄ™ do czytania w trybie wspÃ³lnym
+ZakÅ‚ada blokadÄ™ do czytania
+ZakÅ‚ada blokadÄ™ do pisaniaX1000
+Gdy transakcja X zalo¿y blokadê do pisania, gdy inna transakcja chce czytaæ to:
+Czeka na zwolnienie blokady
+Zak³ada blokadê do czytania w trybie wspólnym
+Zak³ada blokadê do czytania
+Zak³ada blokadê do pisania
+X1000
+Gdy transakcja X zaloÅ¼y blokadÄ™ do pisania, gdy inna transakcja chce pisaÄ‡ to:
+Czeka na zwolnienie blokady
+ZakÅ‚ada blokadÄ™ do czytania w trybie wspÃ³lnym
+ZakÅ‚ada blokadÄ™ do czytania
+ZakÅ‚ada blokadÄ™ do pisania
+X1100
+W protokole dwufazowego zatwierdzania transakcji rozproszonych 2PC w I fazie gÅ‚osowania serwer
+Gdy gÅ‚osuje PRZECIW wykonuje zaniechanie lokalnej transakcji
+Gdy gÅ‚osuje ZA oczekuje na wynik gÅ‚osowania i przechodzi w stan GOTOWOSC
+Gdy gÅ‚osuje ZA zatwierdza lokalnie transakcje i oczekuje na wynik glosowania
+Gdy gÅ‚osuje PRZECIW oczekuje na wynik gÅ‚osowania i przechodzi w stan GOTOWOSC
+X100
+WÄ™zeÅ‚ przestrzeni nazw DNS reprezentuje
+domenÄ™ DNS
+serwer nazw DNS
+strefÄ™ DNSX1100
+Jakie funkcje wymagaja uÅ¼ycia wait przed manipulacjÄ… buforem?
+send
+ssend
+isend
+irecvX1001
+Dla ktÃ³rych przypadkÃ³w komunikacji miedzyprocesowej dochodziÄ‡ bÄ™dzie do wstrzymywania dziaÅ‚ania procesu nadawczego?
+Komunikacja nietrwaÅ‚a synchroniczna typu dostarczenie
+Komunikacja nietrwaÅ‚a asynchroniczna
+Komunikacja trwaÅ‚a asynchroniczna
+Komunikacja trwaÅ‚a synchronicznaX1100
+KtÃ³re specyfikatory XML-RPC dla liczb zmiennoprzecinkowych:
+value
+double
+float
+real
+X100
+Wybierz odpowiednie stwierdzenie dla systemu kolejkowego Point-to-Point
+Wysy³anie na ¿¹danie
+Rozsy³anie komunikatów do wielu
+Nie ma takiego modeluX010
+Wybierz odpowiednie stwierdzenie dla systemu kolejkowego Publish/Subscribe
+Wysy³anie na ¿¹danie
+Rozsy³anie komunikatów do wielu
+Nie ma takiego modeluX001
+Wybierz odpowiednie stwierdzenie dla systemu kolejkowego Multichannel
+Wysy³anie na ¿¹danie
+Rozsy³anie komunikatów do wielu
+Nie ma takiego modeluX0001
+W ktÃ³rej sekcji dokumentu WSDL znajduje siÄ™ definicja nazwy operacji, ktÃ³rÄ… moÅ¼na wywoÅ‚aÄ‡?
+types
+binding
+endpoint
+interfaceX0010
+Nazwa niekwalifikowana DNS:
+W stosowanym zapisie rekordÃ³w koÅ„czy siÄ™ kropkÄ…
+Nie moÅ¼e byÄ‡ uzywana w opisie zasobÃ³w w bazie DNS
+MoÅ¼e siÄ™ powtarzaÄ‡ w przestrzeni nazw DNS
+Jest unikalna w przestrzeni nazw DNSX0001
+W ktÃ³rym z poniÅ¼szych elementÃ³w znajdujÄ… siÄ™ informacje "yellow pages"?
+SOAP
+XML Schema
+WSDL
+UDDIX0010
+Standardowo, przetaczanie parametrÃ³w (marshaling) jest realizowane w nastÄ™pujÄ…cy sposÃ³b:
+Po stronie serwera przy odbieraniu i wysyÅ‚aniu komunikatu
+Po stronie klienta przy wysyÅ‚aniu komunikatu i po stronie serwera przy wysyÅ‚aniu komunikatu
+Po stronie klienta przy wysyÅ‚aniu i przy odbieraniu komuniukatu, i po stronie serwera przy wysyÅ‚aniu i przy odbieraniu komunikatu
+Po stronie klienta przy wysyÅ‚aniu i odbieraniu komunikatuX0010
+OdpowiedÅº autorytatywna danego serwera DNS
+MoÅ¼e dotyczyÄ‡ zasobu i ze strefy danego serwera, i z innych stref
+Dotyczy zasobu, ktÃ³ry zostaÅ‚ uzyskany nie z bufora, ale na skutek odpytywania
+Dotyczy zasobu ze strefy tego serwera
+Dotyczy zasobu, dla ktÃ³rego przy zapytaniu nie trzeba odpytywaÄ‡ innych serwerÃ³wX10010
+Wybierz poprawne stwierdzenia dla struktury Omega(Butterfly)
+UmoÅ¼liwia wszystkim procesorom jednoczesne poÅ‚Ä…czenie z rÃ³Å¼nymi obszarami pamiÄ™ci
+Koszt roÅ›nie wolniej niÅ¼? liniowo w stosunku do liczby procesorÃ³w
+UmoÅ¼liwia p procesorom jednoczesne poÅ‚Ä…czenie z p/2? Obszarem pamiÄ™ci
+Koszt roÅ›nie szybciej niÅ¼ liniowo w stosunku od liczby procesorÃ³w
+UmoÅ¼liwia wszystkim procesorom jednoczesne poÅ‚Ä…czenie z tym samym obszarem pamiÄ™ci.
+X011000
+Jak w JSON-RPC podaje siÄ™ w Å¼Ä…daniach paramtery?
+W sekcji input
+W tablicy wartoÅ›ci
+W tablicy obiektÃ³w
+W strukturze
+Po sÅ‚owach kluczowych param
+Po sÅ‚owie kluczowym inputsX0011
+Wybierz prawidÅ‚owe stwierdzenia:
+Transakcje zagnieÅ¼dÅ¼one muszÄ… wykonywaÄ‡ siÄ™ na kilku serwerach 
+Wycofanie jednej z podtransakcji powoduje wycofanie wszystkich pozostaÅ‚ych podtransakcji transakcji zagnieÅ¼dÅ¼onych 
+Wycofanie transakcji nadrzÄ™dnej wymusza wycofanie rÃ³wnieÅ¼ jej zatwierdzonych podtransakcji
+Wycofanie podtransakcji transakcji zagnieÅ¼dÅ¼onej nie wymusza wycofania transakcji nadrzÄ™dnejX0011
+Wzorzec redundantnej implementacji:
+Zawsze wymaga aktywnoÅ›ci wielu replikowanych usÅ‚ug
+Z zaÅ‚oÅ¼enia zawsze bÄ™dzie zapewniaÄ‡ obsÅ‚ugÄ™ wszystkich dziaÅ‚ajÄ…cych klientÃ³w usÅ‚ugi
+W niektÃ³rych wariantach zakÅ‚ada aktywnoÅ›Ä‡ zwykle tylko jednej instancji usÅ‚ugi
+MoÅ¼e pozwalaÄ‡ na brak obsÅ‚ugi czÄ™Å›ci dziaÅ‚ajÄ…cych klientÃ³wX0111
+KtÃ³re z rodzajÃ³w transportu sÄ… dozwolone dla aplikacji Web Services?
+Å»aden z wymienionych
+SMTP
+HTTP
+TCPX0110
+W sieci P2P:
+Peery sÄ…siadujÄ…ce sÄ… wtedy gdy sÄ… bezpoÅ›rednio w tej samej sieci
+Peery przylegÅ‚e sÄ… wtedy gdy sÄ… bezpoÅ›rednio w tej samej sieci
+Peery sÄ…siadujÄ…ce sÄ… wtedy gdy rÃ³Å¼nica adresÃ³w wynosi 1
+Peery przylegÅ‚e sÄ… wtedy gdy rÃ³Å¼nica adresÃ³w wynosi 1X01
+Zazwyczaj moÅ¼e wstÄ™pnie przetwarzaÄ‡ dane dla operacji
+cienki klient
+gruby klientX10
+Zazwyczaj bÄ™dzie czÄ™Å›ciej komunikowaÅ‚ siÄ™ z serwerem
+cienki klient
+gruby klientX10
+W czasie zmian w warstwie logiki czÄ™sto nie musi byÄ‡ modyfikowalny
+cienki klient
+gruby klientX01
+MoÅ¼e przechowywaÄ‡ czÄ™Å›Ä‡ przetwarzanych danych
+cienki klient
+gruby klientX010
+Komunikacja asynchroniczna
+otwartoÅ›Ä‡
+skalowalnoÅ›Ä‡
+przejrzystoÅ›Ä‡ poÅ‚oÅ¼eniaX100
+NeutralnoÅ›Ä‡ interfejsÃ³w
+otwartoÅ›Ä‡
+skalowalnoÅ›Ä‡
+przejrzystoÅ›Ä‡ poÅ‚oÅ¼eniaX001
+System nazw symbolicznych
+otwartoÅ›Ä‡
+skalowalnoÅ›Ä‡
+przejrzystoÅ›Ä‡ poÅ‚oÅ¼eniaX010
+decentralizacja algorytmÃ³w
+otwartoÅ›Ä‡
+skalowalnoÅ›Ä‡
+przejrzystoÅ›Ä‡ poÅ‚oÅ¼eniaX0100
+Topologie od najdroÅ¼szej:
+torus -> pierÅ›cieÅ„ -> siatka (Mesh) 2D -> hiperkostka
+hiperkostka -> torus -> siatka (Mesh) 2D -> pierÅ›cieÅ„
+hiperkostka -> siatka (Mesh) 2D -> torus -> pierÅ›cieÅ„
+hiperkostka -> pierÅ›cieÅ„ -> torus -> siatka (Mesh) 2DX10
+UzupeÅ‚nij kod aplikacji Java RMI, w ktÃ³rym klient uzyskuje referencjÄ™ do zdalnego obiektu AAA umieszczonego na serwerze pod adresem ADR: try{ String nazwa = "zObiekt"; Registry xxx = LocateRegistry._________(ADR); zObiekt AAA = (zObiekt) xxx.__________(nazwa); }
+getRegistry, lookup
+lookup, getRegistryX10
+UzupeÅ‚nij kod aplikacji Java RMI, w ktÃ³rym definiujesiÄ™ interfejs zdalnego obiektu ZO dla zdalnej metody ZM: public interface ZO extends ________ { public Object ZM(TypParamteru p) throws _______; }
+Remote, RemoteException
+RemoteException, RemoteX10
+UzupeÅ‚nij: public class ZC extends ______ implements ZO { public ZC() throws __________ {super();} public Object ZM(TypParametru p) {return null;}}
+UnicastRemoteObject, RemoteException
+RemoteException, UnicastRemoteObjectX0100
+Podaj szerokoÅ›Ä‡ pasma bisekcji systemu o strukturze hiperkostki 4-go rzÄ™du:
+2
+8
+4
+16X0010
+Gdzie przechowywana jest nazwa metody w SOAP?
+Envelope
+Header
+Body
+ContractX10100
+Zaznacz poprawne sformuÅ‚owania dla modelu systemu kolejkowego point-to-point
+WiadomoÅ›Ä‡ jest dostarczana do jednego klienta (odbiorcy)
+Nie stosuje siÄ™ w tym modelu rÃ³wnowaÅ¼enia obciÄ…Å¼enia
+Do kolejki moÅ¼e byÄ‡ podÅ‚Ä…czonych wielu klientÃ³w
+Do kolejki moÅ¼e byÄ‡ podÅ‚Ä…czony jeden klient
+WiadomoÅ›Ä‡ jest dostarczana do wielu lub wszystkich klientÃ³w podÅ‚Ä…czonych do klejkiX10
+Sondowanie kanaÅ‚u i â€wyciÄ…ganieâ€ komunikatu (Get)
+pull
+pushX10
+ZgÅ‚aszanie jednostce poÅ›redniczÄ…cej wysÅ‚ania komunikatu (wypchniÄ™cia) jak tylko bÄ™dzie on dostÄ™pny (Notify)
+push
+pullX10
+SpÃ³jnoÅ›Ä‡ krawÄ™dziowa
+odpornoÅ›Ä‡ na uszkodzenia
+wydajnoÅ›Ä‡X01
+SzerokoÅ›Ä‡ pasma bisekcji
+odpornoÅ›Ä‡ na uszkodzenia
+wydajnoÅ›Ä‡X10
+UsÅ‚uga udostÄ™pnia
+punkt koÅ„cowy
+kontraktX10
+Konsument usÅ‚ugi Å‚Ä…czy siÄ™ z:
+punkt koÅ„cowy
+kontraktX01
+UsÅ‚uga implementuje
+punkt koÅ„cowy
+kontraktX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najwyÅ¼ej raz jest retransmisja zamÃ³wienia usÅ‚ugi
+nie 
+takX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najwyÅ¼ej raz jest filtracja powtÃ³rzeÅ„?
+nie 
+takX10
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najwyÅ¼ej raz jest powtÃ³rne wykonanie zamÃ³wienia?
+nie 
+takX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najwyÅ¼ej raz usÅ‚ugi
+muszÄ… byÄ‡ idempotentne
+nie muszÄ… byÄ‡ idempotentnesX10
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najmniej raz usÅ‚ugi
+muszÄ… byÄ‡ idempotentne
+nie muszÄ… byÄ‡ idempotentnesX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najmniej raz jest powtÃ³rne wykonanie zamÃ³wienia?
+nie 
+takX10
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najmniej raz jest filtracja powtÃ³rzeÅ„?
+nie 
+takX01
+W komunikacji RPC, w semantyce obsÅ‚ugi awarii serwera co najmniej raz jest retransmisja zamÃ³wienia usÅ‚ugi?
+nie 
+takX01010
+Zaznacz sformuÅ‚owania, ktÃ³re sÄ… prawdÄ… dla komunikacji JSON-RPC (1.0 lub 2.0) typu zawiadomienie:
+W zawiadomieniu podaje siÄ™ id wiadomoÅ›ci rÃ³wny 0
+W zawiadomieniu podaje siÄ™ id wiadomoÅ›ci rÃ³wny null
+Na zawiadomienie otrzymuje siÄ™ potwierdzenie z id wiadomoÅ›ci rÃ³wnym podanemu w zawiadomieniu
+Nie wysyÅ‚a siÄ™ potwierdzeÅ„ otrzymania zawiadomienia
+Na zawiadomienie otrzymuje siÄ™ potwierdzenie z id wiadomoÅ›ci wiÄ™kszym o 1 od podanego w zawiadomieniu.
+X001000
+Jakie jednostki mogÄ… byÄ‡ elementami tabliy (array) w JSON
+liczby, napisy, obiekty
+napisy
+liczby, obiekty, napisy, tablice
+liczby, napisy, tyablice
+liczby, napisy
+liczbyX010011
+Jakie podstawowe sekcje definiujÄ… wiadomoÅ›ci SOAP?
+CONTRACT
+HEADER
+STATUS
+POST
+BODY
+ENVELOPEX1000
+Gdzie jest definiowany interfejs usÅ‚ugi?
+dostawca usÅ‚ugi
+rejestr usÅ‚ugi
+usÅ‚uga 
+klientX10
+Podaj nazwÄ™ interfejsu, ktÃ³ry musi byÄ‡ rozszerzony/implementowany przez obiekty przekazywane w parametrach metody zdalnej jako obiekty lokalne
+Serializable
+RemoteX01
+Podaj nazwÄ™ interfejsu, ktÃ³ry musi byÄ‡ rozszerzony/implementowany przez obiekty przekazywane w parametrach metody zdalnej jako obiekty zdalne
+Serializable
+RemoteX0100
+Jaka jest zÅ‚oÅ¼onoÅ›Ä‡ kosztÃ³w organizacji strukturyzowanych sieci P2P (DHT) w zaleÅ¼noÅ›Ä‡ od jej rozmiaru?
+kwadratowa 
+logarytmiczna
+pierwiastkowa 
+liniowaX0100
+Jak w standardzie XML-RPC realizuje siÄ™ przekazywanie w odpowiedzi wielu parametrÃ³w?
+za pomocÄ… kilku wiadomoÅ›ci
+za pomocÄ… struktury
+poprzez unikalne identyfikatory
+podajÄ…c kolejne parametry (w polach <param>) w sekcji <params>X100
+Jednorodny system operacyjny w wÄ™zÅ‚ach wymagany dla systemÃ³w to:
+DOS (rozproszony system operacyjny)
+NOS (sieciowy system operacyjny)
+Middleware (warstwa poÅ›redniczÄ…ca)X101
+Cechy przezroczystoÅ›ci zapewniajÄ… systemy:
+DOS (rozproszony system operacyjny)
+NOS (sieciowy system operacyjny)
+Middleware (warstwa poÅ›redniczÄ…ca)X010
+Zawsze jawnie trzeba adresowaÄ‡ zasÃ³b w systemie:
+DOS (rozproszony system operacyjny)
+NOS (sieciowy system operacyjny)
+Middleware (warstwa poÅ›redniczÄ…ca)X100
+Zaimplementowany jest serwis webowy z usÅ‚ugami w stylu RESTfull dostÄ™pnymi przez protokÃ³Å‚ HTTP. Serwis dostÄ™pny jest pod adresem http://foo.org. Podstawowe zasoby, na ktÃ³rych wykonuje siÄ™ operacje to rowery (ich katalog) dostÄ™pne w folderze bikes. WyÅ›wietlenie spisu rowerÃ³w - adres: _______ metoda: ______________
+http://foo.org/bikes | metoda: GET
+http://foo.org/bikes | metoda: POST
+http://foo.org/bikes/13 | metoda: PUTX010
+Zaimplementowany jest serwis webowy z usÅ‚ugami w stylu RESTfull dostÄ™pnymi przez protokÃ³Å‚ HTTP. Serwis dostÄ™pny jest pod adresem http://foo.org. Podstawowe zasoby, na ktÃ³rych wykonuje siÄ™ operacje to rowery (ich katalog) dostÄ™pne w folderze bikes. Dodanie nowego roweru do spisu - adres: _______ metoda: ______________
+http://foo.org/bikes | metoda: GET
+http://foo.org/bikes | metoda: POST
+http://foo.org/bikes/13 | metoda: PUTX001
+Zaimplementowany jest serwis webowy z usÅ‚ugami w stylu RESTfull dostÄ™pnymi przez protokÃ³Å‚ HTTP. Serwis dostÄ™pny jest pod adresem http://foo.org. Podstawowe zasoby, na ktÃ³rych wykonuje siÄ™ operacje to rowery (ich katalog) dostÄ™pne w folderze bikes. Modyfikacja danych roweru o id=13 - adres: _______ metoda: ______________
+http://foo.org/bikes | metoda: GET
+http://foo.org/bikes | metoda: POST
+http://foo.org/bikes/13 | metoda: PUTX100
+Reinkarnacja to:
+globalne usuwanie sierot klienta
+coÅ› 
+coÅ› X100
+Co siÄ™ dzieje po wznowieniu klienta? 
+rozgÅ‚aszana zostaje nowa epoka
+coÅ›
+coÅ›X100
+Gdzie klient rozgÅ‚asza nowÄ… epokÄ™?
+wszÄ™dzie
+nigdzie
+na serwerzeX100
+Co siÄ™ dzieje z procesami klienta ze starej epoki?
+zostajÄ… usuniÄ™te
+przechodzÄ… do nowej epoki
+przechodzÄ… w stan hibernacjiX10
+OdpowiedÅº nieautorytatywna danego serwera DNS: 
+dotyczy danych spoza strefy (z bufora)
+dotyczy danych tego serwera (z bazy)X01
+OdpowiedÅº autorytatywna danego serwera DNS: 
+dotyczy danych spoza strefy (z bufora)
+dotyczy danych tego serwera (z bazy)X00010
+Co siê dzieje gdy serwer DNS nie mo¿e znaleŸæ informacji o adresie zasobu (nazwy), o który pyta siê klient z jego strefy? Wybierz jedn¹ odpowiedŸ:
+Klient otrzymuje informacjê, ¿e adres jest nieznany (address not found)
+Klient odpytuje serwer zapasowy DNS
+Klient wywo³uje rezorwel’a aby uzyskaæ adres zasobu
+Serwer DNS odpytuje o zasób serwer zapasowy
+Serwer DNS odpytuje serwer DNS wy¿szego poziomuX0110
+Wzorzec Fasada realizuje funkcjonalnoœæ (wybierz zawsze prawdziwe). Wybierz WSZYSTKIE poprawne odpowiedzi.
+W przypadku zmian w kontrakcie wymusza zmianê logiki biznesowej w us³udze
+Zapewnia warstwê poœrednicz¹c¹ realizuj¹c¹ czêœæ logiki biznesowej
+Zmniejszenie powi¹zania pomiêdzy logik¹ us³ugi a kontraktem
+Zwiêkszenie powi¹zania pomiêdzy logik¹ us³ugi a kontraktemX0001
+Który element okreœla strukturê komunikatu XML s³u¿¹cego do wywo³ania us³ugi w serwisie? Wybierz jedn¹ odpowiedŸ.
+plik XLST
+plik Web.config lub App.config
+pakiet SOAP
+plik XSDX0001
+[img]104.png[/img]
+Tylko specyfikator zmiennej caÅ‚kowitej "i4" lub liczby rzeczywistej "double"
+Tylko specyfikator zmiennej caÅ‚kowitej "i4" lub "int"
+Tylko specyfikator zmiennej caÅ‚kowitej "i4"
+Specyfikator zmiennej caÅ‚kowitej "i4" lub rzeczywistej "double", lub logicznej "boolean", lub ciÄ…gu znakÃ³w "string"X10000
+W serwisie jest zdefiniowana zmienna `integer xxx=0`; Oraz metoda `integer dodaj(integer yyy) {... return xxx;}` ktÃ³ra dodaje do zmiennej xxx wartoÅ›Ä‡ yyy. Dla jakiego typu dziaÅ‚ania serwisu (zachowania) naprzemienne wywoÅ‚anie metody dodaj(100) przez dwa rÃ³Å¼ne klienty (aplikacje na rÃ³Å¼nych komputerach) - kaÅ¼da wywoÅ‚uje metodÄ™ dwa razy, czyli Å‚Ä…cznie 4 - da ostateczny wynik rÃ³wny 200?
+Serwis jest typu PerSession
+Serwis jest typu Single
+Serwis jest typu Concurrent
+Serwis jest typu PerCall
+Serwis jest typu ParallelX01
+Która realizacja klienta dla architektury klient-serwer mo¿e generowaæ mniej komunikacji?
+Cienki klient

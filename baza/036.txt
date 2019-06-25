@@ -1,0 +1,6 @@
+X1100
+Które specyfikatory XML-RPC dla liczb zmiennoprzecinkowych:
+value
+double
+float
+real

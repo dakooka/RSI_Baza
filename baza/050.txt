@@ -1,0 +1,6 @@
+X0110
+W sieci P2P:
+Peery sąsiadujące są wtedy gdy są bezpośrednio w tej samej sieci
+Peery przyległe są wtedy gdy są bezpośrednio w tej samej sieci
+Peery sąsiadujące są wtedy gdy różnica adresów wynosi 1
+Peery przyległe są wtedy gdy różnica adresów wynosi 1

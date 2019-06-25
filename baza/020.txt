@@ -1,0 +1,6 @@
+X1000
+Najtansza struktura systemów (Topologia) wg. kosztów to:
+Pierscień
+Siatka
+Torus
+Hiperkostka

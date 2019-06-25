@@ -1,0 +1,6 @@
+X1000
+Warunki powstania zakleszczenia:
+wzajemne wykluczanie
+zwielokrotnione zasoby
+wywłaszczenia
+acykliczne oczekiwanie

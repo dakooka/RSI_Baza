@@ -1,0 +1,5 @@
+X010
+Zaimplementowany jest serwis webowy z usługami w stylu RESTfull dostępnymi przez protokół HTTP. Serwis dostępny jest pod adresem http://foo.org. Podstawowe zasoby, na których wykonuje się operacje to rowery (ich katalog) dostępne w folderze bikes. Dodanie nowego roweru do spisu - adres: _______ metoda: ______________
+http://foo.org/bikes | metoda: GET
+http://foo.org/bikes | metoda: POST
+http://foo.org/bikes/13 | metoda: PUT

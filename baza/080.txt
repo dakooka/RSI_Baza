@@ -1,0 +1,4 @@
+X01
+W komunikacji RPC, w semantyce obsługi awarii serwera co najmniej raz jest retransmisja zamówienia usługi?
+nie 
+tak

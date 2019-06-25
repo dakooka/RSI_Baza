@@ -1,0 +1,6 @@
+X0110
+Wzorzec Fasada realizuje funkcjonalnoœæ (wybierz zawsze prawdziwe). Wybierz WSZYSTKIE poprawne odpowiedzi.
+W przypadku zmian w kontrakcie wymusza zmianê logiki biznesowej w us³udze
+Zapewnia warstwê poœrednicz¹c¹ realizuj¹c¹ czêœæ logiki biznesowej
+Zmniejszenie powi¹zania pomiêdzy logik¹ us³ugi a kontraktem
+Zwiêkszenie powi¹zania pomiêdzy logik¹ us³ugi a kontraktem

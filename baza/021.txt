@@ -1,0 +1,7 @@
+X01101
+Wybierz poprawne stwierdzenia charakteryzuj¹ce przekazywanie parametrów w zdalnych wywo³aniach procedur z u¿yciem regu³ filtru XDR
+parametry nie mog¹ byæ przekazywane przez kopiowanie i odtwarzanie
+Nadawca i odbiorca musz¹ znaæ typ danych poszczególnych parametrów
+Parametry mog¹ byæ przekazywane przez referencje
+Nadawca i odbiorca nie musz¹ znaæ typu danych poszczególnych parametrów
+Konwersja parametrów jest zawsze wykonywana

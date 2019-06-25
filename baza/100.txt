@@ -1,0 +1,4 @@
+X01
+Odpowiedź autorytatywna danego serwera DNS: 
+dotyczy danych spoza strefy (z bufora)
+dotyczy danych tego serwera (z bazy)

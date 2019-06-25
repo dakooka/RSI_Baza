@@ -1,0 +1,5 @@
+X100
+Przezroczystoœæ migracji to:
+zmiana fizycznej lokalizacji zasobu nie powoduje zmian w sposobie ich identyfikacji i dostêpu
+identyfikacja zasobów jest niezale¿na od ich fizycznej lokalizacji
+ zmiana lokalizacji zasobu dokonywana jest w sposób niewidoczny dla aplikacji w czasie jego u¿ytkowania

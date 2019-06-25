@@ -1,0 +1,4 @@
+X10
+Podaj nazwę interfejsu, który musi być rozszerzony/implementowany przez obiekty przekazywane w parametrach metody zdalnej jako obiekty lokalne
+Serializable
+Remote

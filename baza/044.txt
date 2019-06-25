@@ -1,0 +1,6 @@
+X0010
+Odpowiedź autorytatywna danego serwera DNS
+Może dotyczyć zasobu i ze strefy danego serwera, i z innych stref
+Dotyczy zasobu, który został uzyskany nie z bufora, ale na skutek odpytywania
+Dotyczy zasobu ze strefy tego serwera
+Dotyczy zasobu, dla którego przy zapytaniu nie trzeba odpytywać innych serwerów

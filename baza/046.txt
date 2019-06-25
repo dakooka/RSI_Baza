@@ -1,0 +1,8 @@
+X011000
+Jak w JSON-RPC podaje się w żądaniach paramtery?
+W sekcji input
+W tablicy wartości
+W tablicy obiektów
+W strukturze
+Po słowach kluczowych param
+Po słowie kluczowym inputs

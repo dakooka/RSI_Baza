@@ -1,0 +1,5 @@
+X001
+System nazw symbolicznych
+otwartość
+skalowalność
+przejrzystość położenia

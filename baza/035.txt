@@ -1,0 +1,6 @@
+X1001
+Dla których przypadków komunikacji miedzyprocesowej dochodzić będzie do wstrzymywania działania procesu nadawczego?
+Komunikacja nietrwała synchroniczna typu dostarczenie
+Komunikacja nietrwała asynchroniczna
+Komunikacja trwała asynchroniczna
+Komunikacja trwała synchroniczna

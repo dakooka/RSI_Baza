@@ -1,0 +1,6 @@
+X1100
+W protokole dwufazowego zatwierdzania transakcji rozproszonych 2PC w I fazie głosowania serwer
+Gdy głosuje PRZECIW wykonuje zaniechanie lokalnej transakcji
+Gdy głosuje ZA oczekuje na wynik głosowania i przechodzi w stan GOTOWOSC
+Gdy głosuje ZA zatwierdza lokalnie transakcje i oczekuje na wynik glosowania
+Gdy głosuje PRZECIW oczekuje na wynik głosowania i przechodzi w stan GOTOWOSC

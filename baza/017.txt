@@ -1,0 +1,4 @@
+X10
+Prawo Amdahla mówi, ¿e przy zwiêkszeniu skali przetwarzania czêœci sekwencyjna
+Staje siê coraz wiêksz¹ czêœci¹ czasu przetwarzania
+Staje siê coraz mniejsz¹ czêœci¹ czasu przetwarzania

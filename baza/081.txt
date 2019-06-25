@@ -1,0 +1,7 @@
+X01010
+Zaznacz sformułowania, które są prawdą dla komunikacji JSON-RPC (1.0 lub 2.0) typu zawiadomienie:
+W zawiadomieniu podaje się id wiadomości równy 0
+W zawiadomieniu podaje się id wiadomości równy null
+Na zawiadomienie otrzymuje się potwierdzenie z id wiadomości równym podanemu w zawiadomieniu
+Nie wysyła się potwierdzeń otrzymania zawiadomienia
+Na zawiadomienie otrzymuje się potwierdzenie z id wiadomości większym o 1 od podanego w zawiadomieniu.

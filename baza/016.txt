@@ -1,0 +1,4 @@
+X10
+Prawo Gustafsona mówi, ¿e dla sta³ej liczby procesorów
+Przyspieszenie roœnie, gdy zwiêkszamy rozmiar problemu
+Przyspieszenie maleje, gdy zwiêkszamy rozmiar problemu

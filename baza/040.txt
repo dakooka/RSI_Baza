@@ -1,0 +1,6 @@
+X0001
+W której sekcji dokumentu WSDL znajduje się definicja nazwy operacji, którą można wywołać?
+types
+binding
+endpoint
+interface

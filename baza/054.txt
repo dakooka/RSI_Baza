@@ -1,0 +1,4 @@
+X01
+Może przechowywać część przetwarzanych danych
+cienki klient
+gruby klient

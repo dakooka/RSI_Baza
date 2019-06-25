@@ -1,0 +1,6 @@
+X1000
+Gdzie jest definiowany interfejs usługi?
+dostawca usługi
+rejestr usługi
+usługa 
+klient

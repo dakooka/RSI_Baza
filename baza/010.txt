@@ -1,0 +1,6 @@
+X0101
+W protokole dwufazowego zatwierdzania transakcji rozproszonych 2PC serwery:
+Wszystkie serwery oczekuj¹ w stanie GOTOWOŒCI dopóki nie otrzymuj¹ globalnego wyniku g³osowania
+Mog¹ przejœæ od razu do stanu ZANIECHANIE bez oczekiwania na wynik g³osowania
+Mog¹ przejœæ do stanu ZANIECHANIE a nastêpnie do stanu GOTOWOŒc
+Realizuj¹ zatwierdzenie lokalne dopiero po uzyskaniu globalnego wyniku g³osowania

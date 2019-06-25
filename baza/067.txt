@@ -1,0 +1,4 @@
+X10
+Zgłaszanie jednostce pośredniczącej wysłania komunikatu (wypchnięcia) jak tylko będzie on dostępny (Notify)
+push
+pull

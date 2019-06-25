@@ -1,0 +1,6 @@
+X0010
+Zadaniem ³¹cznika w mechanizmie RPC jest:
+Realizacja mechanizmu drzwi w RPC
+Realizacja przetaczania parametrów
+Dostarczenie adresu wywo³ania procedury
+Utrzymanie tablicy portów us³ug na serwerze

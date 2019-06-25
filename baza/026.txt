@@ -1,0 +1,6 @@
+X0100
+W jakich architekturach realizowane s¹ klastry obliczeniowe?
+SISD
+MIMD
+SIMD
+MISD

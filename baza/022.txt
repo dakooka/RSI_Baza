@@ -1,0 +1,6 @@
+X0010
+W których sieciach P2P stosuje się tablicę rutingu w wezłach sieci?
+czyste (pure)
+hybrydowe
+strukturyzowane
+niestrukturyzowane

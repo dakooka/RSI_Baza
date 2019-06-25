@@ -1,0 +1,4 @@
+X10
+W komunikacji RPC, w semantyce obsługi awarii serwera co najwyżej raz jest powtórne wykonanie zamówienia?
+nie 
+tak

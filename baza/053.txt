@@ -1,0 +1,4 @@
+X10
+W czasie zmian w warstwie logiki często nie musi być modyfikowalny
+cienki klient
+gruby klient

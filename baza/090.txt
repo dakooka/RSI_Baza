@@ -1,0 +1,5 @@
+X101
+Cechy przezroczystości zapewniają systemy:
+DOS (rozproszony system operacyjny)
+NOS (sieciowy system operacyjny)
+Middleware (warstwa pośrednicząca)

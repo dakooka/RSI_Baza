@@ -1,0 +1,7 @@
+X10100
+Zaznacz poprawne sformułowania dla modelu systemu kolejkowego point-to-point
+Wiadomość jest dostarczana do jednego klienta (odbiorcy)
+Nie stosuje się w tym modelu równoważenia obciążenia
+Do kolejki może być podłączonych wielu klientów
+Do kolejki może być podłączony jeden klient
+Wiadomość jest dostarczana do wielu lub wszystkich klientów podłączonych do klejki

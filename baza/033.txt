@@ -1,0 +1,5 @@
+X100
+Węzeł przestrzeni nazw DNS reprezentuje
+domenę DNS
+serwer nazw DNS
+strefę DNS

@@ -1,0 +1,6 @@
+X1000
+W mechanizmie RPC przetaczanie parametrów realizowane jest:
+W pieńku klienta
+W warstwie zdalnych wywołań
+W procedurze dowiązania
+W łączniku

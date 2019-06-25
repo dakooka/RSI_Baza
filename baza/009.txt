@@ -1,0 +1,6 @@
+X0011
+Dla algorytmu sterowania optymistycznego transakcjami wspó³bie¿nymi przy legalizacji transakcji Tj prawdziwe jest, ¿e
+Przy legalizacji wstecznej zbiór czytania Tj i zbiór pisania transakcji z B musz¹ byæ roz³¹czne
+Tj nie wolno zapisywad obiektów czytanych przez transakcje zbioru A
+Przy legalizacji wstecznej zbiór czytania Tj i zbiór pisania transakcji z A musz¹ byæ roz³¹czne
+Tj nie wolno zapisywad obiektów czytanych przez transakcje zbioru B

@@ -1,0 +1,5 @@
+X100
+Gdzie klient rozgłasza nową epokę?
+wszędzie
+nigdzie
+na serwerze

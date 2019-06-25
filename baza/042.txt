@@ -1,0 +1,6 @@
+X0001
+W którym z poniższych elementów znajdują się informacje "yellow pages"?
+SOAP
+XML Schema
+WSDL
+UDDI

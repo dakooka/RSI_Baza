@@ -1,0 +1,4 @@
+X10
+W komunikacji RPC, w semantyce obsługi awarii serwera co najmniej raz usługi
+muszą być idempotentne
+nie muszą być idempotentnes

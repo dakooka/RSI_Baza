@@ -1,0 +1,5 @@
+X001
+Przezroczystoœæ relokacji to:
+Zmiana fizycznej lokalizacji zasobu nie powoduje zmian w sposobie ich identyfikacji i dostêpu,
+Identyfikacja zasobów jest niezale¿na od ich fizycznej lokalizacji
+Zmiana lokalizacji zasobu dokonywana jest w sposób niewidoczny dla aplikacji w czasie jego u¿ytkowania

@@ -1,0 +1,6 @@
+X1100
+Opis zasobów strefy DNS dotyczy domeny edu.pl i zawiera wpis $ORIGIN edu.pl. W strefie jest host o nazwie serwer-2. Zaznacz poprawne wpisy w pliku opisującym strefę
+serwer-2 IN NS serwer-2.edu.pl
+serwer-2.edu.pl IN A 173.194.35.159
+serwer-2.edu.pl IN PTR 173.194.35.159
+serwer-2.12345.A 173.194.35.159

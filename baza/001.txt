@@ -1,0 +1,4 @@
+X01
+Która realizacja klienta dla architektury klient-serwer mo¿e generowaæ mniej komunikacji?
+Cienki klient
+Gruby klient

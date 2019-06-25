@@ -1,0 +1,6 @@
+X0110
+Dla których uporz¹dkowañ rozsy³ania spe³niony jest poni¿szy warunek: „z danego procesu wiadomoœci s¹ dostarczane do ka¿dego procesu w systemie w kolejnoœci ich wysy³ania”?
+Ca³kowite
+FIFO
+Przyczynowe
+Nieuporz¹dkowane

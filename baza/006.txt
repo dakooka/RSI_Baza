@@ -1,0 +1,6 @@
+X0011
+Dla których schematów komunikacji miêdzyprocesowej potwierdzenie odbioru komunikatu mo¿e przyjœd przed rozpoczêciem przetwarzania komunikatu?
+Komunikacja nietrwa³a synchroniczna typu odpowiedŸ
+Komunikacja nietrwa³a asynchroniczna
+Komunikacja trwa³a synchroniczna
+Komunikacja nietrwa³a synchroniczna typu dostarczenie

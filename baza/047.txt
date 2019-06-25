@@ -1,0 +1,6 @@
+X0011
+Wybierz prawidłowe stwierdzenia:
+Transakcje zagnieżdżone muszą wykonywać się na kilku serwerach 
+Wycofanie jednej z podtransakcji powoduje wycofanie wszystkich pozostałych podtransakcji transakcji zagnieżdżonych 
+Wycofanie transakcji nadrzędnej wymusza wycofanie również jej zatwierdzonych podtransakcji
+Wycofanie podtransakcji transakcji zagnieżdżonej nie wymusza wycofania transakcji nadrzędnej

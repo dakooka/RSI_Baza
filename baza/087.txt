@@ -1,0 +1,6 @@
+X0100
+Jaka jest złożoność kosztów organizacji strukturyzowanych sieci P2P (DHT) w zależność od jej rozmiaru?
+kwadratowa 
+logarytmiczna
+pierwiastkowa 
+liniowa

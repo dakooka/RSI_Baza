@@ -1,0 +1,6 @@
+X0001
+[img]104.png[/img]
+Tylko specyfikator zmiennej całkowitej "i4" lub liczby rzeczywistej "double"
+Tylko specyfikator zmiennej całkowitej "i4" lub "int"
+Tylko specyfikator zmiennej całkowitej "i4"
+Specyfikator zmiennej całkowitej "i4" lub rzeczywistej "double", lub logicznej "boolean", lub ciągu znaków "string"

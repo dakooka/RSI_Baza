@@ -1,0 +1,6 @@
+X0100
+Podaj szerokość pasma bisekcji systemu o strukturze hiperkostki 4-go rzędu:
+2
+8
+4
+16

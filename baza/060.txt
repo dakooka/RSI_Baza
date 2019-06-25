@@ -1,0 +1,4 @@
+X10
+Uzupełnij kod aplikacji Java RMI, w którym klient uzyskuje referencję do zdalnego obiektu AAA umieszczonego na serwerze pod adresem ADR: try{ String nazwa = "zObiekt"; Registry xxx = LocateRegistry._________(ADR); zObiekt AAA = (zObiekt) xxx.__________(nazwa); }
+getRegistry, lookup
+lookup, getRegistry

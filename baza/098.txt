@@ -1,0 +1,5 @@
+X100
+Co się dzieje z procesami klienta ze starej epoki?
+zostają usunięte
+przechodzą do nowej epoki
+przechodzą w stan hibernacji

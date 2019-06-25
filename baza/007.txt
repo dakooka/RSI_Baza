@@ -1,0 +1,5 @@
+X110
+Komunikacja RPC w semantyce obs³ugi awarii serwera CO NAJWY¯EJ RAZ
+Jest retransmisja zamówienia us³ug
+Jest filtracja powtórzeñ
+Jest powtórne wykonanie zamówienia

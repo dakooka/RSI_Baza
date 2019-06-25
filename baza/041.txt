@@ -1,0 +1,6 @@
+X0010
+Nazwa niekwalifikowana DNS:
+W stosowanym zapisie rekordów kończy się kropką
+Nie może być uzywana w opisie zasobów w bazie DNS
+Może się powtarzać w przestrzeni nazw DNS
+Jest unikalna w przestrzeni nazw DNS

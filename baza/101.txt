@@ -1,0 +1,7 @@
+X00010
+Co siê dzieje gdy serwer DNS nie mo¿e znaleŸæ informacji o adresie zasobu (nazwy), o który pyta siê klient z jego strefy? Wybierz jedn¹ odpowiedŸ:
+Klient otrzymuje informacjê, ¿e adres jest nieznany (address not found)
+Klient odpytuje serwer zapasowy DNS
+Klient wywo³uje rezorwel’a aby uzyskaæ adres zasobu
+Serwer DNS odpytuje o zasób serwer zapasowy
+Serwer DNS odpytuje serwer DNS wy¿szego poziomu

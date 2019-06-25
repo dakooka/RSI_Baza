@@ -1,0 +1,4 @@
+X10
+Konsument usługi łączy się z:
+punkt końcowy
+kontrakt

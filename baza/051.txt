@@ -1,0 +1,4 @@
+X01
+Zazwyczaj może wstępnie przetwarzać dane dla operacji
+cienki klient
+gruby klient

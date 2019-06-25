@@ -1,0 +1,4 @@
+X10
+Uzupełnij kod aplikacji Java RMI, w którym definiujesię interfejs zdalnego obiektu ZO dla zdalnej metody ZM: public interface ZO extends ________ { public Object ZM(TypParamteru p) throws _______; }
+Remote, RemoteException
+RemoteException, Remote

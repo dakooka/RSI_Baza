@@ -1,0 +1,6 @@
+X0100
+Topologie od najdroższej:
+torus -> pierścień -> siatka (Mesh) 2D -> hiperkostka
+hiperkostka -> torus -> siatka (Mesh) 2D -> pierścień
+hiperkostka -> siatka (Mesh) 2D -> torus -> pierścień
+hiperkostka -> pierścień -> torus -> siatka (Mesh) 2D

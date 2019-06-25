@@ -1,0 +1,5 @@
+X010
+Zawsze jawnie trzeba adresować zasób w systemie:
+DOS (rozproszony system operacyjny)
+NOS (sieciowy system operacyjny)
+Middleware (warstwa pośrednicząca)

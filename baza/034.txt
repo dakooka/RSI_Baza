@@ -1,0 +1,6 @@
+X1100
+Jakie funkcje wymagaja użycia wait przed manipulacją buforem?
+send
+ssend
+isend
+irecv

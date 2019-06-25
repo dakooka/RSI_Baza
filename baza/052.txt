@@ -1,0 +1,4 @@
+X10
+Zazwyczaj będzie częściej komunikował się z serwerem
+cienki klient
+gruby klient

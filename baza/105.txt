@@ -1,0 +1,7 @@
+X10000
+W serwisie jest zdefiniowana zmienna `integer xxx=0`; Oraz metoda `integer dodaj(integer yyy) {... return xxx;}` która dodaje do zmiennej xxx wartość yyy. Dla jakiego typu działania serwisu (zachowania) naprzemienne wywołanie metody dodaj(100) przez dwa różne klienty (aplikacje na różnych komputerach) - każda wywołuje metodę dwa razy, czyli łącznie 4 - da ostateczny wynik równy 200?
+Serwis jest typu PerSession
+Serwis jest typu Single
+Serwis jest typu Concurrent
+Serwis jest typu PerCall
+Serwis jest typu Parallel

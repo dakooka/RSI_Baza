@@ -1,0 +1,6 @@
+X0010
+Standardowo, przetaczanie parametrów (marshaling) jest realizowane w następujący sposób:
+Po stronie serwera przy odbieraniu i wysyłaniu komunikatu
+Po stronie klienta przy wysyłaniu komunikatu i po stronie serwera przy wysyłaniu komunikatu
+Po stronie klienta przy wysyłaniu i przy odbieraniu komuniukatu, i po stronie serwera przy wysyłaniu i przy odbieraniu komunikatu
+Po stronie klienta przy wysyłaniu i odbieraniu komunikatu

@@ -1,0 +1,6 @@
+X0011
+Wzorzec redundantnej implementacji:
+Zawsze wymaga aktywności wielu replikowanych usług
+Z założenia zawsze będzie zapewniać obsługę wszystkich działających klientów usługi
+W niektórych wariantach zakłada aktywność zwykle tylko jednej instancji usługi
+Może pozwalać na brak obsługi części działających klientów

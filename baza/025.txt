@@ -1,0 +1,6 @@
+X0111
+W których metodach niezawodnego rozsy³ania prawdziwe jest poni¿sze stwierdzenie: "wiadomoœci wys³ane przez proces x s¹ dostarczane (odbierane ?) do procesu/ów w tej samej kolejnoœci":
+nieuporz¹dkowane
+FIFO
+przyczynowe
+ca³kowite

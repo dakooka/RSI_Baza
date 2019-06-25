@@ -1,0 +1,6 @@
+X0111
+Które z rodzajów transportu są dozwolone dla aplikacji Web Services?
+Żaden z wymienionych
+SMTP
+HTTP
+TCP

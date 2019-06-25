@@ -1,0 +1,4 @@
+X01
+Szerokość pasma bisekcji
+odporność na uszkodzenia
+wydajność

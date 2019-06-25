@@ -1,0 +1,8 @@
+X001000
+Jakie jednostki mogą być elementami tabliy (array) w JSON
+liczby, napisy, obiekty
+napisy
+liczby, obiekty, napisy, tablice
+liczby, napisy, tyablice
+liczby, napisy
+liczby

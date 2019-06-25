@@ -1,0 +1,6 @@
+X0100
+Jak w standardzie XML-RPC realizuje się przekazywanie w odpowiedzi wielu parametrów?
+za pomocą kilku wiadomości
+za pomocą struktury
+poprzez unikalne identyfikatory
+podając kolejne parametry (w polach <param>) w sekcji <params>

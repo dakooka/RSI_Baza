@@ -1,0 +1,4 @@
+X01
+Technika zdalnych obiektów rozproszonych to mechanizm architektury NOS (sieciowy system operacyjny) czy Middleware (warstwa poœrednicz¹ca oprogramowania)
+NOS
+Middleware

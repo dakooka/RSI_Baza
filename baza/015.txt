@@ -1,0 +1,5 @@
+X001
+Skalowalnoœc:
+Ukrywanie ró¿nic w reprezentacji danych, zachowanie spójnoœci w systemie, zdolnoœci ukrycia chwilowych nieprawid³owoœci funkcjonowania
+Standaryzowanie us³ug, zapewnienie przenoœnoœci, modu³owoœd architektury
+Replikacja komponentów, wymaganie decentralizacji algorytmów, potrzeba komunikacji asynchronicznej

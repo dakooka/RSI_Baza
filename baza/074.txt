@@ -1,0 +1,4 @@
+X01
+W komunikacji RPC, w semantyce obsługi awarii serwera co najwyżej raz jest filtracja powtórzeń?
+nie 
+tak

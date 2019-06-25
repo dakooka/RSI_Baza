@@ -1,0 +1,5 @@
+X010
+PrzeŸroczystoœæ po³o¿enia to:
+zmiana lokalizacji zasobu dokonywana jest w sposób niewidoczny dla aplikacji w czasie jego u¿ytkowania
+identyfikacja zasobów jest niezale¿na od ich fizycznej lokalizacji
+zmiana fizycznej lokalizacji zasobu nie powoduje zmian w sposobie ich identyfikacji i dostêpu

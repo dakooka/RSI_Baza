@@ -1,0 +1,7 @@
+X10010
+Wybierz poprawne stwierdzenia dla struktury Omega(Butterfly)
+Umożliwia wszystkim procesorom jednoczesne połączenie z różnymi obszarami pamięci
+Koszt rośnie wolniej niż? liniowo w stosunku do liczby procesorów
+Umożliwia p procesorom jednoczesne połączenie z p/2? Obszarem pamięci
+Koszt rośnie szybciej niż liniowo w stosunku od liczby procesorów
+Umożliwia wszystkim procesorom jednoczesne połączenie z tym samym obszarem pamięci.

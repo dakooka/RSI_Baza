@@ -1,0 +1,8 @@
+X010011
+Jakie podstawowe sekcje definiują wiadomości SOAP?
+CONTRACT
+HEADER
+STATUS
+POST
+BODY
+ENVELOPE

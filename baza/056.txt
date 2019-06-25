@@ -1,0 +1,5 @@
+X100
+Neutralność interfejsów
+otwartość
+skalowalność
+przejrzystość położenia

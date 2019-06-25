@@ -1,0 +1,6 @@
+X0110
+W algorytmie pesymistycznego porz¹dkowania operacji transakcji wed³ug znaczników czasu:
+Transakcja póŸniejsza nie musi czekaæ na zatwierdzenie zapisów transakcji wczeœniejszych
+Transakcja póŸniejsza mo¿e pisaæ, jeœli transakcja wczeœniejsza zapisywa³a ale tylko na kopii roboczej
+Transakcja nie mo¿e pisaæ, jeœli transakcja póŸniejsza wykona³a czytanie
+Transakcja póŸniejsza musi byæ zaniechana, jeœli transakcja wczeœniejsza zapisywa³a na swojej kopii roboczej

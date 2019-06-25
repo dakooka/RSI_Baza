@@ -1,0 +1,6 @@
+X0010
+Gdzie przechowywana jest nazwa metody w SOAP?
+Envelope
+Header
+Body
+Contract

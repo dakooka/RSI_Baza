@@ -1,0 +1,6 @@
+X0001
+Który element okreœla strukturê komunikatu XML s³u¿¹cego do wywo³ania us³ugi w serwisie? Wybierz jedn¹ odpowiedŸ.
+plik XLST
+plik Web.config lub App.config
+pakiet SOAP
+plik XSD

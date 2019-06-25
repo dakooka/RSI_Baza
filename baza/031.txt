@@ -1,0 +1,6 @@
+X1000
+Gdy transakcja X zaloży blokadę do pisania, gdy inna transakcja chce pisać to:
+Czeka na zwolnienie blokady
+Zakłada blokadę do czytania w trybie wspólnym
+Zakłada blokadę do czytania
+Zakłada blokadę do pisania

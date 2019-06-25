@@ -1,0 +1,6 @@
+X0001
+Najdroższa struktura systemów (Topologia) wg. kosztów to:
+Pierscień
+Siatka
+Torus
+Hiperkostka

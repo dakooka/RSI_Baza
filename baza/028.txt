@@ -1,0 +1,6 @@
+X0100
+28.   Gdy transakcja X zalo¿y blokadê do czytania, gdy inna transakcja chce czytaæ to:
+Czeka na zwolnienie blokady
+Zak³ada blokadê do czytania w trybie wspólnym
+Zak³ada blokadê do czytania
+Zak³ada blokadê do pisania

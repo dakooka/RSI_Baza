@@ -1,0 +1,5 @@
+X010
+Komunikacja asynchroniczna
+otwartość
+skalowalność
+przejrzystość położenia

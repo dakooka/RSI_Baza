@@ -1,0 +1,4 @@
+X10
+Sondowanie kanału i ”wyciąganie” komunikatu (Get)
+pull
+push

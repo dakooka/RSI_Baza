@@ -1,0 +1,4 @@
+X10
+Uzupełnij: public class ZC extends ______ implements ZO { public ZC() throws __________ {super();} public Object ZM(TypParametru p) {return null;}}
+UnicastRemoteObject, RemoteException
+RemoteException, UnicastRemoteObject

@@ -1,0 +1,5 @@
+X100
+Co się dzieje po wznowieniu klienta? 
+rozgłaszana zostaje nowa epoka
+coś
+coś

@@ -1,0 +1,4 @@
+X01
+Usługa implementuje
+punkt końcowy
+kontrakt
